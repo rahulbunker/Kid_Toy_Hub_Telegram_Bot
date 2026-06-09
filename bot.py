@@ -129,5 +129,8 @@ def main():
     print("🤖 Kid Toy Hub Bot chal raha hai... Ctrl+C se band karo")
     app.run_polling()
 
+import asyncio
+
 if __name__ == "__main__":
+    asyncio.set_event_loop(asyncio.new_event_loop())
     main()
